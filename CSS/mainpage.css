@@ -9,7 +9,8 @@
 	padding-bottom: 5px;
 	}
 body {
-	background-image: url('..//Images/Background.jpg');
+	background-image: url('..//Images/top.jpg');
+    background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
