@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Kenneth Kim </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="..//CSS/mainpage.css">
+    <link rel="stylesheet" type="text/css" href="..//CSS/title.css">
+</head>
+
+<body>
+
+<div class="header">
+<div class="bg-img">
+  <div class="name">Kenneth Kim</div>
+  <div class="title">Recent Graduate | Aspiring System Administrator</div>
+  <div class="TopBlacksquare"></div>
+</div>
+
+  <div id="navbar">
+    <a href="..//index.html">Main Page</a>
+    <a href="AboutMe.html">About Me</a>
+    <a href="Projects.html">Projects</a>
+    <a href="Contacts.html">Contact</a>
+    <div class="BottomBlacksquare"></div>
+  </div>  
+
+<article>
+	<h1>A little bit about me...!</h1>		
+	<div class="content">
+	<h1>Contact Information</h1>
+    
+</article>
+
+<footer>
+	<p>- Have a wonderful day - </p>
+</footer>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>
