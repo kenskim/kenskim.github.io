@@ -1,0 +1,98 @@
+
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.bg-img {
+  /* The image used */
+  background-image: url("..//Images/top.jpg");
+   
+  min-height: 220px;
+  max-height: 110px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+.name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 75px;
+  position: absolute;
+  top: 20px;
+  left: 16px;
+  color: #000000;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.title {
+  font-family: Franklin Gothic Heavy;
+  font-size: 28px;
+  position: absolute;
+  top: 90px;
+  left: 16px;
+  color: #000000;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+
+.TopBlacksquare {
+  height: 20px;
+  background-color: #000000;
+  width: 100%;
+  opacity: 0.5;
+  position: relative;
+  top: 200px;
+}
+
+.BottomBlacksquare {
+  height: 5px;
+  width: 100%;
+  background-color: #000000;
+  opacity: 0.6;
+}
+
+#navbar {
+  overflow: hidden;
+  text-align: center;
+  background-color: #000000;
+}
+
+#navbar a {
+  font-family: Franklin Gothic Heavy;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  font-size: 17px;
+  display: inline-block;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #11cdee;
+  color: rgb(20, 229, 236);
+}
+
+.content {
+  padding: 0px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 50px;
+}
