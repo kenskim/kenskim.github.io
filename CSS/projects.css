@@ -1,0 +1,10 @@
+.projects{
+    list-style-position: inside;
+    list-style-type: square
+}
+
+p {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-left: 0px;
+}
