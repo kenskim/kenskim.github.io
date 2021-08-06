@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Kenneth S. Kim </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="..//..//CSS/mainpage.css">
+        <link rel="stylesheet" type="text/css" href="../..//CSS/title.css">
+        <link rel="sytlesheet" type="text/css" href="..//..//CSS/projects.css">
+</head>
+
+<body>
+
+<div class="header">
+<div class="bg-img">
+  <div class="name">Kenneth S. Kim</div>
+  <div class="title">Recent Graduate | Aspiring System Administrator</div>
+  <div class="TopBlackbar"></div>
+</div>
+
+  <div id="navbar">
+    <a href="..//index.html">Main Page</a>
+    <a href="AboutMe.html">About Me</a>
+    <a href="Projects.html">Projects</a>
+    <a href="Contacts.html">Contact</a>
+    <div class="BottomBlackbar"></div>
+  </div>  
+
+<div id="body">
+  <article>
+	    <h1>CPRG260 Final Project</h1>		
+	    <ul class="projects">
+        <ul class="projdesc">
+        <p class="detail">Date Completed: Apr 17, 2020</p>
+        <p class="detail">Objective(s):</p> 
+                <li>Use the fundamental knowledge of Python, Linux scripting, 
+                    and MySQL database queries to design and build a program with a definitive purpose..</li>
+        <p class="detail">Programming Language/Concept/Software Used: </p>
+                <li>Ubuntu 18.04 OS</li>
+                <li>Python 3</li>
+                <li>MySQL Database</li>
+        <p class="detail">Details: </p>
+               <li>File Integrity Check System</li>
+               <li>The program encrypts a file of user's choice using SHA256 algorithm and saves it onto 
+                   another file.
+               </li>
+               <li>The program runs in the background periodically to compare the current SHA256 algorithm
+                   to the one written in the output file.
+               </li>
+               <li>tFf there are discrepencies found during its schedueled run, the Program alerts the user  </li>
+               <li>MySQL database was used to store employee information for the initial plan of another function to 
+                   automatically check for the perpetrator's information onto an automated report - out of the scope of the project</li>
+                   
+            </ul>
+        </ul>
+        </ul>
+</article>
+
+<footer>
+	<p>- Have a wonderful day - </p>
+</footer>
+</div>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>

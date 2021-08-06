@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Kenneth S. Kim </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="..//..//CSS/mainpage.css">
+        <link rel="stylesheet" type="text/css" href="../..//CSS/title.css">
+        <link rel="sytlesheet" type="text/css" href="..//..//CSS/projects.css">
+</head>
+
+<body>
+
+<div class="header">
+<div class="bg-img">
+  <div class="name">Kenneth S. Kim</div>
+  <div class="title">Recent Graduate | Aspiring System Administrator</div>
+  <div class="TopBlackbar"></div>
+</div>
+
+  <div id="navbar">
+    <a href="..//index.html">Main Page</a>
+    <a href="AboutMe.html">About Me</a>
+    <a href="Projects.html">Projects</a>
+    <a href="Contacts.html">Contact</a>
+    <div class="BottomBlackbar"></div>
+  </div>  
+
+<div id="body">
+  <article>
+	    <h1>CMPH305 Final Project</h1>		
+	    <ul class="projects">
+        <ul class="projdesc">
+        <p class="detail">Date Completed: Dec 7, 2020</p>
+        <p class="detail">Objective(s):</p> 
+                <li>Create a network of systems according to the client's business needs</li>
+                <li>Must contain the minimum outlined workstations and servers</li>
+                <li>Must have GPO's and account restrictions ruling to limit users gaining access to the servers directly</li>
+        <p class="detail">Programming Language/Concept/Software Used: </p>
+                <li>Windows Server 2016</li>
+                <li>Windows Server 2012</li>
+                <li>Windows 10 Home</li>
+                <li>Linux CentOS 7</li>
+                <li>FTP Server</li>
+                <li>NFS Shares- Mounted to Client machines</li>
+                <li>DHCP Server - Separate from Host DHCP</li>
+                <li>Exchange Server 2013 / Outlook</li>
+                <li>HTML</li>
+        <p class="detail">Details: </p>
+               <li>Refer to the image for Network diagram</li>
+               <img src="..//..//Images/ProjectImages/CMPH305/Network.PNG" alt="System Requirements" width="150" height="150">
+        </ul>
+        </ul>
+        </ul>
+</article>
+
+<footer>
+	<p>- Have a wonderful day - </p>
+</footer>
+</div>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>
